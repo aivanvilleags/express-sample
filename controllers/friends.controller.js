@@ -19,7 +19,7 @@ function addFriend (req,res) {
 
     model.push(newFriend);
     console.log(model);
-    return res.status(200).json(newFriend)
+    return res.status(200).json(model)
 
 }
 
